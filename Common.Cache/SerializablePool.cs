@@ -53,6 +53,11 @@ namespace Common.Cache
             return _list.Contains(item);
         }
 
+        public int Count()
+        {
+            return _list.Count();
+        }
+
         public bool Remove(T item)
         {
             if (Contains(item))

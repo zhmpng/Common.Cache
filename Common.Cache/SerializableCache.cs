@@ -62,6 +62,11 @@ namespace Common.Cache
             return _dictionary.ContainsKey(id);
         }
 
+        public int Count()
+        { 
+            return _dictionary.Count();
+        }
+
         public void Delete(K id)
         {
             if (Contains(id))
