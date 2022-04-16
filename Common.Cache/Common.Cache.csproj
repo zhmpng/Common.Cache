@@ -10,7 +10,7 @@
     <AssemblyName>Common.Cache</AssemblyName>
     <Authors>zhmpng</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>0.1.1</AssemblyVersion>
+    <AssemblyVersion>0.1.2</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Version>$(AssemblyVersion)</Version>
     <PackageTags>Cache</PackageTags>
